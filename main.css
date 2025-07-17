@@ -69,13 +69,17 @@ body{
 
 .lose__btn{
     background: #E38182;
+    transition: 0.2s;
 }
 .lose__btn:hover{
     background: #CE5557;
+    transform: scale(1.05);
 }
 .win__btn{
     background: #81E3A1;
+    transition: 0.2s;
 }
 .win__btn:hover{
     background: #2FCE64;
+    transform: scale(1.05);
 }
